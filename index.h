@@ -19,7 +19,7 @@ bool num(const string&str,int&n){
     return true;//это число
 }
 
-// Функция для безопасного ввода с защитой
+//функция для безопасного ввода
 void safeInput(const string&p,int&o,int min,int max){
     string i;//для хранения ввода
     while(true){
